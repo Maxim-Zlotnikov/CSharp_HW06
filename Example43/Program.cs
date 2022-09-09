@@ -5,13 +5,13 @@
 
 System.Console.Clear();
 
-Console.WriteLine("значения b1");
+Console.WriteLine("значение b1");
 double b1 = double.Parse(Console.ReadLine()!);
-Console.WriteLine("значения k1");
+Console.WriteLine("значение k1");
 double k1 = double.Parse(Console.ReadLine()!);
-Console.WriteLine("значения b2");
+Console.WriteLine("значение b2");
 double b2 = Convert.ToDouble(Console.ReadLine());
-Console.WriteLine("значения k2");
+Console.WriteLine("значение k2");
 double k2 = Convert.ToDouble(Console.ReadLine());
 double point1 = (b2 - b1) / (k1 - k2);
 double point2 = (k1 * b2 - k2 * b1) / (k1 - k2);
